@@ -2,14 +2,16 @@
 title: "HelloWorld"
 author: "Autumn Mathias"
 date: "1/20/2021"
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## This is an R Markdown file
+##This is an R Markdown file
 
 ## R Markdown
 
